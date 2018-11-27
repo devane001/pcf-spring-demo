@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring5
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 5000
+
+---
+spring:
+  profiles: default
+  redis:
+    host: 192.168.99.100

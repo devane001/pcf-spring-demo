@@ -1,0 +1,12 @@
+---
+applications:
+- name: fan-spring
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  memory: 1G
+  instances: 1
+  random-route: true
+  path: target/fan-spring.jar
+  env:
+    SPRING_REDIS_HOST: fan-redis
+  services:
+    - fan-redis
