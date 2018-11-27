@@ -1,6 +1,10 @@
 # README.md
 
-## 启动
+## require
+
+- redis
+
+## start
 ``` bash
 cf login
 cf cs rediscloud 30mb fan-redis
@@ -24,7 +28,7 @@ curl $(cf r | grep fan-spring | awk '{print $2"."$3}')/city \
 curl $(cf r | grep fan-spring | awk '{print $2"."$3}')/city/1
 ```
 
-## 停止
+## stop
 
 ```bash
 cf delete fan-spring -f
