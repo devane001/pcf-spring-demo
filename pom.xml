@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.choerodon</groupId>
-    <artifactId>fan-spring</artifactId>
+    <artifactId>pcf-spring-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
